@@ -1,0 +1,30 @@
+{
+    "P1001": {
+        "name": "Wireless Mouse",
+        "description": "Ergonomic and battery-powered",
+        "category": "Accessories",
+        "price": 19.99,
+        "stock": 20
+    },
+    "P1002": {
+        "name": "Mechanical Keyboard",
+        "description": "RGB backlit and fast typing",
+        "category": "Accessories",
+        "price": 59.99,
+        "stock": 15
+    },
+    "P2001": {
+        "name": "1080p Monitor",
+        "description": "24-inch Full HD screen",
+        "category": "Displays",
+        "price": 129.99,
+        "stock": 10
+    },
+    "P3001": {
+        "name": "Laptop",
+        "description": "14-inch, 16GB RAM, 512GB SSD",
+        "category": "Computers",
+        "price": 799.99,
+        "stock": 5
+    }
+}
