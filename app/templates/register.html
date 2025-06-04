@@ -1,10 +1,85 @@
-<form method="POST">
-    <input type="text" name="name" placeholder="Name">
-    <input type="email" name="email" placeholder="Email">
-    <input type="password" name="password" placeholder="Password">
+<body style="background-color: #0b1d3f; color: #cbd5e1; min-height: 100vh; padding: 2rem; margin: 0; font-family: sans-serif;">
 
-    <!-- Add this: -->
-    <input type="text" name="address" placeholder="Address">
+    <form method="POST" style="
+        max-width: 500px;
+        margin: auto;
+        background-color: #1e293b;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    ">
+        <h4 style="
+            color: #f1f5f9;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        ">Register</h4>
 
-    <button type="submit">Register</button>
-</form>
+        <div style="margin-bottom: 1rem;">
+            <input type="text" name="name" placeholder="Name" required style="
+                width: 100%;
+                padding: 0.75rem 1rem;
+                border: none;
+                border-bottom: 2px solid #334155;
+                background-color: #0f172a;
+                color: #f1f5f9;
+                border-radius: 0.5rem;
+                outline: none;
+            " onfocus="this.style.borderColor='#60a5fa'" onblur="this.style.borderColor='#334155'">
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+            <input type="email" name="email" placeholder="Email" required style="
+                width: 100%;
+                padding: 0.75rem 1rem;
+                border: none;
+                border-bottom: 2px solid #334155;
+                background-color: #0f172a;
+                color: #f1f5f9;
+                border-radius: 0.5rem;
+                outline: none;
+            " onfocus="this.style.borderColor='#60a5fa'" onblur="this.style.borderColor='#334155'">
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+            <input type="password" name="password" placeholder="Password" required style="
+                width: 100%;
+                padding: 0.75rem 1rem;
+                border: none;
+                border-bottom: 2px solid #334155;
+                background-color: #0f172a;
+                color: #f1f5f9;
+                border-radius: 0.5rem;
+                outline: none;
+            " onfocus="this.style.borderColor='#60a5fa'" onblur="this.style.borderColor='#334155'">
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+            <input type="text" name="address" placeholder="Address" style="
+                width: 100%;
+                padding: 0.75rem 1rem;
+                border: none;
+                border-bottom: 2px solid #334155;
+                background-color: #0f172a;
+                color: #f1f5f9;
+                border-radius: 0.5rem;
+                outline: none;
+            " onfocus="this.style.borderColor='#60a5fa'" onblur="this.style.borderColor='#334155'">
+        </div>
+
+        <button type="submit" style="
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background-color: #3b82f6;
+            color: #ffffff;
+            font-weight: 600;
+            border: none;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#2563eb'; this.style.boxShadow='0 0 12px #3b82f6aa'" onmouseout="this.style.backgroundColor='#3b82f6'; this.style.boxShadow='none'">
+            Register
+        </button>
+    </form>
+
+</body>

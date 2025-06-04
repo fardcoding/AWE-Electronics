@@ -1,13 +1,30 @@
 {% extends 'layout.html' %}
+
 {% block content %}
+<div class="mx-auto" style="max-width: 600px; background-color: #1e293b; padding: 2rem; border-radius: 1rem; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
 
-<h2>Your Profile</h2>
-<ul class="list-group mb-3">
-    <li class="list-group-item"><strong>Name:</strong> {{ user.name }}</li>
-    <li class="list-group-item"><strong>Email:</strong> {{ user.email }}</li>
-    <li class="list-group-item"><strong>Address:</strong> {{ user.address }}</li>
-</ul>
-<a href="/catalogue" class="btn btn-primary">Back to Catalogue</a>
-<a href="/profile/edit" class="btn btn-warning ms-2">Edit Profile</a>
+    <h2 class="text-light text-center mb-4">Your Profile</h2>
 
+    <ul class="list-group mb-4">
+        <li class="list-group-item bg-dark text-light border-secondary">
+            <strong>Name:</strong> {{ user.name }}
+        </li>
+        <li class="list-group-item bg-dark text-light border-secondary">
+            <strong>Email:</strong> {{ user.email }}
+        </li>
+        <li class="list-group-item bg-dark text-light border-secondary">
+            <strong>Address:</strong> {{ user.address }}
+        </li>
+    </ul>
+
+    <div class="d-flex justify-content-center gap-3">
+        <a href="/catalogue" class="btn btn-outline-primary px-4 fw-semibold" style="border-radius: 999px;">
+            Back to Catalogue
+        </a>
+        <a href="/profile/edit" class="btn btn-outline-warning px-4 fw-semibold" style="border-radius: 999px;">
+            Edit Profile
+        </a>
+    </div>
+
+</div>
 {% endblock %}
