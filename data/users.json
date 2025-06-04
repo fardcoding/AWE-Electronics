@@ -86,5 +86,20 @@
         "role": "customer",
         "cart": [],
         "order_history": []
+    },
+    {
+        "id": 8,
+        "name": "q",
+        "email": "q@gmail.com",
+        "password": "q",
+        "address": "q",
+        "role": "customer",
+        "cart": [
+            3
+        ],
+        "order_history": [
+            10,
+            11
+        ]
     }
 ]

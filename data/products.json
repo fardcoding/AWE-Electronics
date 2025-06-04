@@ -12,7 +12,7 @@
         "name": "Headphones",
         "description": "Noise-cancelling over-ear headphones",
         "price": 299.99,
-        "stock": 10,
+        "stock": 8,
         "category": "Audio"
     },
     {
