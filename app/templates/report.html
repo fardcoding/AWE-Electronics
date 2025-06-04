@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h2>Sales Report</h2>
+
+<a href="/admin/dashboard" class="btn btn-secondary mb-3">← Back to Dashboard</a>
+
+<ul class="list-group mb-4">
+  <li class="list-group-item">Total Orders: <strong>{{ total_orders }}</strong></li>
+  <li class="list-group-item">Total Revenue: <strong>${{ total_revenue }}</strong></li>
+  {% if best_selling %}
+    <li class="list-group-item">
+      Best Selling Product: <strong>{{ best_selling.name }}</strong> (Ordered {{ product_counts[best_selling.id] }} times)
+    </li>
+  {% else %}
+    <li class="list-group-item">Best Selling Product: N/A</li>
+  {% endif %}
+</ul>
+
+<a href="/admin/products" class="btn btn-secondary">Back to Admin Panel</a>
+{% endblock %}

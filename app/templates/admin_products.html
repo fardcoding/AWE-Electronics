@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<h2 class="mb-4">Admin - Product Management</h2>
+
+<a href="/admin/dashboard" class="btn btn-secondary mb-3">← Back to Dashboard</a>
+<a href="/admin/products/new" class="btn btn-success mb-3">Add New Product</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price ($)</th>
+            <th>Stock</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.description }}</td>
+            <td>{{ product.price }}</td>
+            <td>
+              <span class="badge {% if product.stock <= 5 %}bg-danger{% else %}bg-secondary{% endif %}">
+                {{ product.stock }}
+              </span>
+            </td>
+
+            <td class="d-flex gap-2">
+                <!-- Edit Button -->
+                <a href="/admin/products/{{ product.id }}/edit" class="btn btn-warning btn-sm">Edit</a>
+
+                <!-- Delete Button (POST form) -->
+                <form method="POST" action="/admin/products/{{ product.id }}/delete" style="display:inline;">
+                    <button type="submit" class="btn btn-danger btn-sm"
+                            onclick="return confirm('Are you sure you want to delete this product?')">
+                        Delete
+                    </button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

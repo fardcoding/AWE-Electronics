@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "customer_id": 2,
+        "product_ids": [
+            2
+        ],
+        "total_amount": 299.99
+    },
+    {
+        "id": 2,
+        "customer_id": 5,
+        "product_ids": [
+            5,
+            2,
+            5,
+            2
+        ],
+        "total_amount": 2200.58
+    },
+    {
+        "id": 3,
+        "customer_id": 2,
+        "product_ids": [
+            1
+        ],
+        "total_amount": 1500.0
+    },
+    {
+        "id": 4,
+        "customer_id": 5,
+        "product_ids": [
+            1
+        ],
+        "total_amount": 1500.0
+    },
+    {
+        "id": 5,
+        "customer_id": 5,
+        "product_ids": [
+            2
+        ],
+        "total_amount": 299.99
+    },
+    {
+        "id": 6,
+        "customer_id": 2,
+        "product_ids": [
+            1
+        ],
+        "total_amount": 1500.0
+    },
+    {
+        "id": 7,
+        "customer_id": 2,
+        "product_ids": [
+            9
+        ],
+        "total_amount": 1223.82
+    },
+    {
+        "id": 8,
+        "customer_id": 2,
+        "product_ids": [
+            17
+        ],
+        "total_amount": 1622.42
+    },
+    {
+        "id": 9,
+        "customer_id": 5,
+        "product_ids": [
+            12
+        ],
+        "total_amount": 1331.61
+    }
+]

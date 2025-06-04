@@ -1,0 +1,266 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "description": "15-inch gaming laptop",
+        "price": 1500.0,
+        "stock": 14,
+        "category": "Electronics"
+    },
+    {
+        "id": 2,
+        "name": "Headphones",
+        "description": "Noise-cancelling over-ear headphones",
+        "price": 299.99,
+        "stock": 10,
+        "category": "Audio"
+    },
+    {
+        "id": 3,
+        "name": "Smartphone",
+        "description": "Latest Android smartphone",
+        "price": 999.99,
+        "stock": 9,
+        "category": "Mobile"
+    },
+    {
+        "id": 4,
+        "name": "Tablet",
+        "description": "10-inch Android tablet",
+        "price": 75.47,
+        "stock": 47,
+        "category": "Mobile"
+    },
+    {
+        "id": 5,
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse",
+        "price": 800.3,
+        "stock": 31,
+        "category": "Accessories"
+    },
+    {
+        "id": 6,
+        "name": "Mechanical Keyboard",
+        "description": "RGB backlit mechanical keyboard",
+        "price": 197.68,
+        "stock": 26,
+        "category": "Accessories"
+    },
+    {
+        "id": 7,
+        "name": "Smartwatch",
+        "description": "Water-resistant smartwatch with GPS",
+        "price": 375.87,
+        "stock": 32,
+        "category": "Wearables"
+    },
+    {
+        "id": 8,
+        "name": "Bluetooth Speaker",
+        "description": "Portable Bluetooth speaker",
+        "price": 178.23,
+        "stock": 40,
+        "category": "Audio"
+    },
+    {
+        "id": 9,
+        "name": "Webcam",
+        "description": "1080p HD webcam",
+        "price": 1223.82,
+        "stock": 45,
+        "category": "Accessories"
+    },
+    {
+        "id": 10,
+        "name": "Monitor",
+        "description": "27-inch 4K UHD monitor",
+        "price": 849.67,
+        "stock": 18,
+        "category": "Electronics"
+    },
+    {
+        "id": 11,
+        "name": "Router",
+        "description": "Dual-band Wi-Fi 6 router",
+        "price": 1289.06,
+        "stock": 39,
+        "category": "Networking"
+    },
+    {
+        "id": 12,
+        "name": "Printer",
+        "description": "All-in-one wireless printer",
+        "price": 1331.61,
+        "stock": 47,
+        "category": "Office"
+    },
+    {
+        "id": 13,
+        "name": "External Hard Drive",
+        "description": "2TB USB 3.0 external hard drive",
+        "price": 716.24,
+        "stock": 43,
+        "category": "Storage"
+    },
+    {
+        "id": 14,
+        "name": "Drone",
+        "description": "Quadcopter drone with camera",
+        "price": 479.65,
+        "stock": 44,
+        "category": "Gadgets"
+    },
+    {
+        "id": 15,
+        "name": "VR Headset",
+        "description": "Virtual reality headset with controllers",
+        "price": 1494.62,
+        "stock": 23,
+        "category": "Gaming"
+    },
+    {
+        "id": 16,
+        "name": "Game Console",
+        "description": "Next-gen gaming console",
+        "price": 1566.35,
+        "stock": 22,
+        "category": "Gaming"
+    },
+    {
+        "id": 17,
+        "name": "Smart TV",
+        "description": "55-inch 4K Smart TV",
+        "price": 1622.42,
+        "stock": 13,
+        "category": "Electronics"
+    },
+    {
+        "id": 18,
+        "name": "Power Bank",
+        "description": "10000mAh fast charging power bank",
+        "price": 417.32,
+        "stock": 28,
+        "category": "Mobile"
+    },
+    {
+        "id": 19,
+        "name": "Fitness Tracker",
+        "description": "Activity tracker with heart rate monitor",
+        "price": 632.48,
+        "stock": 10,
+        "category": "Wearables"
+    },
+    {
+        "id": 20,
+        "name": "E-reader",
+        "description": "6-inch glare-free e-ink display e-reader",
+        "price": 1411.39,
+        "stock": 15,
+        "category": "Mobile"
+    },
+    {
+        "id": 21,
+        "name": "Smart Home Hub",
+        "description": "Voice-controlled smart home hub",
+        "price": 1533.97,
+        "stock": 32,
+        "category": "Home"
+    },
+    {
+        "id": 22,
+        "name": "Security Camera",
+        "description": "Wireless outdoor security camera",
+        "price": 125.67,
+        "stock": 6,
+        "category": "Home"
+    },
+    {
+        "id": 23,
+        "name": "Projector",
+        "description": "1080p portable projector",
+        "price": 1680.15,
+        "stock": 33,
+        "category": "Electronics"
+    },
+    {
+        "id": 24,
+        "name": "Charging Station",
+        "description": "Multi-device charging dock",
+        "price": 688.83,
+        "stock": 30,
+        "category": "Accessories"
+    },
+    {
+        "id": 25,
+        "name": "Laptop Stand",
+        "description": "Adjustable aluminum laptop stand",
+        "price": 786.9,
+        "stock": 44,
+        "category": "Accessories"
+    },
+    {
+        "id": 26,
+        "name": "Microphone",
+        "description": "USB condenser microphone",
+        "price": 1366.04,
+        "stock": 24,
+        "category": "Audio"
+    },
+    {
+        "id": 27,
+        "name": "Graphics Tablet",
+        "description": "Digital drawing tablet with pen",
+        "price": 173.94,
+        "stock": 19,
+        "category": "Creative"
+    },
+    {
+        "id": 28,
+        "name": "Smart Light Bulb",
+        "description": "Color-changing LED smart bulb",
+        "price": 152.77,
+        "stock": 39,
+        "category": "Home"
+    },
+    {
+        "id": 29,
+        "name": "Electric Scooter",
+        "description": "Folding electric scooter with lights",
+        "price": 975.9,
+        "stock": 48,
+        "category": "Transport"
+    },
+    {
+        "id": 30,
+        "name": "Gaming Chair",
+        "description": "Ergonomic reclining gaming chair",
+        "price": 188.9,
+        "stock": 46,
+        "category": "Gaming"
+    },
+    {
+        "id": 31,
+        "name": "NAS Drive",
+        "description": "4-bay network attached storage",
+        "price": 1372.24,
+        "stock": 20,
+        "category": "Storage"
+    },
+    {
+        "id": 32,
+        "name": "Cable Organizer",
+        "description": "Desk cable management system",
+        "price": 1227.7,
+        "stock": 47,
+        "category": "Accessories"
+    },
+    {
+        "id": 33,
+        "name": "USB Hub",
+        "description": "7-port USB 3.0 hub",
+        "price": 1194.48,
+        "stock": 20,
+        "category": "Accessories"
+    }
+]

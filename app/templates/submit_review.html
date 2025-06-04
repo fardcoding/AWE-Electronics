@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<h2>Submit Review for Product ID: {{ product_id }}</h2>
+
+<form method="POST">
+    <div class="mb-3">
+        <label for="rating" class="form-label">Rating (1 to 5):</label>
+        <input type="number" class="form-control" id="rating" name="rating" min="1" max="5" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="comment" class="form-label">Your Review:</label>
+        <textarea class="form-control" id="comment" name="comment" rows="3" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit Review</button>
+</form>
+
+{% endblock %}

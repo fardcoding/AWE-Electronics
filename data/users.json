@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "password": "password123",
+        "address": "123 Test St",
+        "role": "customer",
+        "cart": [],
+        "order_history": []
+    },
+    {
+        "id": 2,
+        "name": "Radin",
+        "email": "radingamage7@gmail.com",
+        "password": "123",
+        "address": "313/20/1, Ceyloid Homes, Gonamaditta Rs, Kesbawe",
+        "role": "customer",
+        "cart": [
+            3
+        ],
+        "order_history": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8
+        ]
+    },
+    {
+        "id": 5,
+        "name": "thirath",
+        "email": "thirath@gmail.com",
+        "password": "987",
+        "address": "colombo",
+        "role": "customer",
+        "cart": [],
+        "order_history": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9
+        ]
+    },
+    {
+        "id": 4,
+        "name": "senuja",
+        "email": "senuja@gmail.com",
+        "password": "123",
+        "address": "glen",
+        "role": "customer",
+        "cart": [],
+        "order_history": [
+            3
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Admin",
+        "email": "admin@awestore.com",
+        "password": "admin123",
+        "address": "Admin HQ",
+        "role": "customer",
+        "cart": [],
+        "order_history": []
+    },
+    {
+        "id": 6,
+        "name": "methmin",
+        "email": "methmin@gmail.com",
+        "password": "1223",
+        "address": "chadstone",
+        "role": "customer",
+        "cart": [],
+        "order_history": []
+    }
+]

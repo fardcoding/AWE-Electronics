@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h2 class="mb-4">All Customer Orders</h2>
+
+<a href="/admin/dashboard" class="btn btn-secondary mb-3">← Back to Dashboard</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Total ($)</th>
+            <th>Products</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for order in orders %}
+        <tr>
+            <td>{{ order.id }}</td>
+            <td>{{ order.customer }}</td>
+            <td>{{ order.total }}</td>
+            <td>
+                <ul>
+                    {% for product in order.products %}
+                    <li>{{ product.name if product else 'Unknown' }}</li>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
