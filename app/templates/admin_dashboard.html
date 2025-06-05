@@ -1,38 +1,48 @@
 {% extends 'layout.html' %}
 {% block content %}
-<div class="text-center mb-4">
-    <h2>Admin Dashboard</h2>
-    <p class="text-muted">Welcome, Admin. Here's an overview of the store.</p>
+<div class="text-center mb-5">
+    <h2 class="fw-bold">Admin Dashboard</h2>
+    <p class="text-muted fs-5">Welcome, Admin. Here's an overview of the store.</p>
 </div>
 
-<div class="row mb-4">
+<div class="row g-4 mb-5">
     <div class="col-md-4">
-        <div class="card shadow-sm p-3">
-            <h5>Total Orders</h5>
-            <p class="fs-4">{{ total_orders }}</p>
+        <div class="card text-white bg-primary h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total Orders</h5>
+                <p class="display-6">{{ total_orders }}</p>
+            </div>
         </div>
     </div>
     <div class="col-md-4">
-        <div class="card shadow-sm p-3">
-            <h5>Total Revenue</h5>
-            <p class="fs-4">${{ total_revenue }}</p>
+        <div class="card text-white bg-success h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total Revenue</h5>
+                <p class="display-6">${{ total_revenue }}</p>
+            </div>
         </div>
     </div>
     <div class="col-md-4">
-        <div class="card shadow-sm p-3">
-            <h5>Best Selling Product</h5>
-            {% if best_selling %}
-                <p class="fs-5">{{ best_selling.name }}</p>
-            {% else %}
-                <p class="text-muted">No orders yet.</p>
-            {% endif %}
+        <div class="card text-white bg-info h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+                <h5 class="card-title">Best Selling Product</h5>
+                {% if best_selling %}
+                    <p class="fs-5 mt-2">{{ best_selling.name }}</p>
+                {% else %}
+                    <p class="text-light mt-2">No orders yet.</p>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>
 
-<div class="d-flex justify-content-center gap-4">
-    <a href="/admin/products" class="btn btn-primary">Manage Products</a>
-    <a href="/admin/orders" class="btn btn-secondary">View Orders</a>
-    <a href="/admin/report" class="btn btn-outline-dark">Sales Report</a>
+<div class="text-center">
+    <div class="btn-group" role="group">
+        <a href="/admin/products" class="btn btn-lg btn-outline-primary px-4">Manage Products</a>
+        <a href="/admin/orders" class="btn btn-lg btn-outline-secondary px-4">View Orders</a>
+        <a href="/admin/report" class="btn btn-lg btn-outline-light px-4">Sales Report</a>
+    </div>
+</div>
+
 </div>
 {% endblock %}

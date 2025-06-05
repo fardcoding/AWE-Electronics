@@ -1,26 +1,10 @@
 [
     {
-        "id": 1,
-        "name": "Laptop",
-        "description": "15-inch gaming laptop",
-        "price": 1500.0,
-        "stock": 14,
-        "category": "Electronics"
-    },
-    {
-        "id": 2,
-        "name": "Headphones",
-        "description": "Noise-cancelling over-ear headphones",
-        "price": 299.99,
-        "stock": 8,
-        "category": "Audio"
-    },
-    {
         "id": 3,
         "name": "Smartphone",
         "description": "Latest Android smartphone",
         "price": 999.99,
-        "stock": 9,
+        "stock": 8,
         "category": "Mobile"
     },
     {
@@ -262,5 +246,13 @@
         "price": 1194.48,
         "stock": 20,
         "category": "Accessories"
+    },
+    {
+        "id": 32,
+        "name": "Iphone 15",
+        "description": "Iphone 15 128Gb",
+        "price": 1800.0,
+        "stock": 20,
+        "category": "Mobile"
     }
 ]

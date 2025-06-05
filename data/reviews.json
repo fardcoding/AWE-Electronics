@@ -1,16 +1,373 @@
 [
     {
         "id": 1,
-        "product_id": 3,
-        "customer_id": 2,
-        "rating": 5,
-        "comment": "very good"
+        "product_id": 8,
+        "customer_id": 9,
+        "rating": 3,
+        "comment": "Solid quality and build."
     },
     {
         "id": 2,
-        "product_id": 1,
+        "product_id": 8,
+        "customer_id": 8,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 3,
+        "product_id": 19,
         "customer_id": 2,
         "rating": 4,
-        "comment": "it is okay\r\n"
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 4,
+        "product_id": 19,
+        "customer_id": 10,
+        "rating": 4,
+        "comment": "Solid quality and build."
+    },
+    {
+        "id": 5,
+        "product_id": 20,
+        "customer_id": 4,
+        "rating": 3,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 6,
+        "product_id": 20,
+        "customer_id": 9,
+        "rating": 4,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 7,
+        "product_id": 20,
+        "customer_id": 4,
+        "rating": 3,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 8,
+        "product_id": 11,
+        "customer_id": 5,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 9,
+        "product_id": 11,
+        "customer_id": 2,
+        "rating": 4,
+        "comment": "Excellent product!"
+    },
+    {
+        "id": 10,
+        "product_id": 6,
+        "customer_id": 10,
+        "rating": 4,
+        "comment": "Not bad for the price."
+    },
+    {
+        "id": 11,
+        "product_id": 6,
+        "customer_id": 5,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 12,
+        "product_id": 6,
+        "customer_id": 3,
+        "rating": 5,
+        "comment": "Excellent product!"
+    },
+    {
+        "id": 13,
+        "product_id": 25,
+        "customer_id": 7,
+        "rating": 4,
+        "comment": "Not bad for the price."
+    },
+    {
+        "id": 14,
+        "product_id": 25,
+        "customer_id": 4,
+        "rating": 4,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 15,
+        "product_id": 33,
+        "customer_id": 9,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 16,
+        "product_id": 33,
+        "customer_id": 2,
+        "rating": 4,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 17,
+        "product_id": 13,
+        "customer_id": 7,
+        "rating": 3,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 18,
+        "product_id": 13,
+        "customer_id": 10,
+        "rating": 5,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 19,
+        "product_id": 23,
+        "customer_id": 6,
+        "rating": 5,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 20,
+        "product_id": 23,
+        "customer_id": 6,
+        "rating": 4,
+        "comment": "Excellent product!"
+    },
+    {
+        "id": 21,
+        "product_id": 5,
+        "customer_id": 1,
+        "rating": 4,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 22,
+        "product_id": 5,
+        "customer_id": 4,
+        "rating": 5,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 23,
+        "product_id": 24,
+        "customer_id": 6,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 24,
+        "product_id": 24,
+        "customer_id": 6,
+        "rating": 4,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 25,
+        "product_id": 9,
+        "customer_id": 1,
+        "rating": 5,
+        "comment": "Excellent product!"
+    },
+    {
+        "id": 26,
+        "product_id": 9,
+        "customer_id": 10,
+        "rating": 4,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 27,
+        "product_id": 9,
+        "customer_id": 9,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 28,
+        "product_id": 10,
+        "customer_id": 1,
+        "rating": 3,
+        "comment": "Not bad for the price."
+    },
+    {
+        "id": 29,
+        "product_id": 10,
+        "customer_id": 5,
+        "rating": 4,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 30,
+        "product_id": 26,
+        "customer_id": 10,
+        "rating": 3,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 31,
+        "product_id": 26,
+        "customer_id": 5,
+        "rating": 5,
+        "comment": "Solid quality and build."
+    },
+    {
+        "id": 32,
+        "product_id": 17,
+        "customer_id": 4,
+        "rating": 4,
+        "comment": "Not bad for the price."
+    },
+    {
+        "id": 33,
+        "product_id": 17,
+        "customer_id": 2,
+        "rating": 5,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 34,
+        "product_id": 18,
+        "customer_id": 5,
+        "rating": 4,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 35,
+        "product_id": 18,
+        "customer_id": 3,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 36,
+        "product_id": 12,
+        "customer_id": 7,
+        "rating": 4,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 37,
+        "product_id": 12,
+        "customer_id": 3,
+        "rating": 3,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 38,
+        "product_id": 7,
+        "customer_id": 6,
+        "rating": 5,
+        "comment": "Excellent product!"
+    },
+    {
+        "id": 39,
+        "product_id": 7,
+        "customer_id": 1,
+        "rating": 4,
+        "comment": "Not bad for the price."
+    },
+    {
+        "id": 40,
+        "product_id": 7,
+        "customer_id": 7,
+        "rating": 5,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 41,
+        "product_id": 28,
+        "customer_id": 4,
+        "rating": 3,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 42,
+        "product_id": 28,
+        "customer_id": 9,
+        "rating": 4,
+        "comment": "Solid quality and build."
+    },
+    {
+        "id": 43,
+        "product_id": 34,
+        "customer_id": 1,
+        "rating": 5,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 44,
+        "product_id": 34,
+        "customer_id": 10,
+        "rating": 4,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 45,
+        "product_id": 29,
+        "customer_id": 6,
+        "rating": 5,
+        "comment": "Excellent product!"
+    },
+    {
+        "id": 46,
+        "product_id": 29,
+        "customer_id": 3,
+        "rating": 4,
+        "comment": "Solid quality and build."
+    },
+    {
+        "id": 47,
+        "product_id": 16,
+        "customer_id": 2,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 48,
+        "product_id": 16,
+        "customer_id": 4,
+        "rating": 3,
+        "comment": "Not bad for the price."
+    },
+    {
+        "id": 49,
+        "product_id": 4,
+        "customer_id": 3,
+        "rating": 4,
+        "comment": "Highly recommend."
+    },
+    {
+        "id": 50,
+        "product_id": 4,
+        "customer_id": 9,
+        "rating": 5,
+        "comment": "Would buy again."
+    },
+    {
+        "id": 51,
+        "product_id": 3,
+        "customer_id": 1,
+        "rating": 5,
+        "comment": "Pretty good, does the job."
+    },
+    {
+        "id": 52,
+        "product_id": 3,
+        "customer_id": 4,
+        "rating": 4,
+        "comment": "Solid quality and build."
+    },
+    {
+        "id": 53,
+        "product_id": 3,
+        "customer_id": 9,
+        "rating": 5,
+        "comment": "Gooood"
     }
 ]

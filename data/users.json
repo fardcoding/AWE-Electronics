@@ -101,5 +101,17 @@
             10,
             11
         ]
+    },
+    {
+        "id": 9,
+        "name": "fardaad",
+        "email": "fardaad@gmail.com",
+        "password": "fardaad",
+        "address": "1212",
+        "role": "customer",
+        "cart": [],
+        "order_history": [
+            12
+        ]
     }
 ]
