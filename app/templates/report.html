@@ -6,7 +6,8 @@
 
 <ul class="list-group mb-4">
   <li class="list-group-item">Total Orders: <strong>{{ total_orders }}</strong></li>
-  <li class="list-group-item">Total Revenue: <strong>${{ total_revenue }}</strong></li>
+  <li class="list-group-item">Total Revenue: <strong>${{ '%.2f' | format(total_revenue) }}</strong></li>
+
   {% if best_selling %}
     <li class="list-group-item">
       Best Selling Product: <strong>{{ best_selling.name }}</strong> (Ordered {{ product_counts[best_selling.id] }} times)

@@ -109,9 +109,16 @@
         "password": "fardaad",
         "address": "1212",
         "role": "customer",
-        "cart": [],
+        "cart": [
+            6,
+            5,
+            11
+        ],
         "order_history": [
-            12
+            12,
+            13,
+            14,
+            15
         ]
     }
 ]

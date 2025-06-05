@@ -21,7 +21,8 @@
             <tr>
                 <td class="fw-semibold">{{ order.id }}</td>
                 <td>{{ order.customer }}</td>
-                <td>${{ order.total }}</td>
+                <td>${{ '%.2f' | format(order.total) }}</td>
+
                 <td>
                     <ul class="list-unstyled mb-0">
                         {% for product in order.products %}

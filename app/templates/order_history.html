@@ -1,20 +1,33 @@
 {% extends 'layout.html' %}
 {% block content %}
 
-<h2>Order History</h2>
+<div class="text-center mb-4">
+    <h2 class="fw-bold text-light">Order History</h2>
+</div>
 
 {% if orders %}
-    <ul class="list-group">
+    <div class="list-group">
         {% for order in orders %}
-            <li class="list-group-item">
-                <strong>Order ID:</strong> {{ order.id }} |
-                <strong>Total:</strong> ${{ order.total_amount }} |
-                <strong>Products:</strong> {{ order.product_ids | join(', ') }}
-            </li>
+            <div class="list-group-item bg-dark text-white border-secondary mb-3 rounded shadow-sm">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <strong>Order ID:</strong> #{{ order.id }}
+                    </div>
+                    <div>
+                        <strong>Total:</strong> ${{ '%.2f' | format(order.total_amount) }}
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <strong>Products:</strong>
+                    <span class="text-info">{{ order.product_ids | join(', ') }}</span>
+                </div>
+            </div>
         {% endfor %}
-    </ul>
+    </div>
 {% else %}
-    <p>You have not placed any orders yet.</p>
+    <div class="alert alert-info text-center">
+        You have not placed any orders yet.
+    </div>
 {% endif %}
 
 {% endblock %}

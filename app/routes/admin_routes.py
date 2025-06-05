@@ -129,3 +129,5 @@ def sales_report():
         best_selling=best_selling,
         product_counts=product_counts
     )
+
+

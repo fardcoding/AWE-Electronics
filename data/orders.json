@@ -97,5 +97,32 @@
             3
         ],
         "total_amount": 999.99
+    },
+    {
+        "id": 13,
+        "customer_id": 9,
+        "product_ids": [
+            4,
+            8,
+            7
+        ],
+        "total_amount": 629.5699999999999
+    },
+    {
+        "id": 14,
+        "customer_id": 9,
+        "product_ids": [
+            3,
+            7
+        ],
+        "total_amount": 1375.8600000000001
+    },
+    {
+        "id": 15,
+        "customer_id": 9,
+        "product_ids": [
+            4
+        ],
+        "total_amount": 75.47
     }
 ]
