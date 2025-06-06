@@ -1,6 +1,14 @@
 {% extends 'layout.html' %}
 {% block content %}
 
+{% set product_icons = {
+    3: "📱", 4: "📲", 5: "🖱️", 6: "⌨️", 7: "⌚", 8: "🔊", 9: "🎥", 10: "🖥️",
+    11: "📶", 12: "🖨️", 13: "💾", 14: "🚁", 15: "🎮", 16: "🕹️", 17: "📺", 18: "🔋",
+    19: "🏃", 20: "📖", 21: "🏠", 22: "📷", 23: "📽️", 24: "🔌", 25: "🪑", 26: "🎙️",
+    27: "✏️", 28: "💡", 29: "🛴", 30: "🪑", 31: "🗄️", 32: "📱", 33: "🔗", 34: "🍎"
+} %}
+
+
 <h2 class="mb-4 text-light">🛍️ Product Catalogue</h2>
 
 <!-- Filter UI (Dropdown - Non-functional placeholder) -->
@@ -38,7 +46,9 @@
              onmouseout="this.style.boxShadow='none'; this.style.transform='scale(1)'">
 
             <div class="card-body">
-                <h5 class="card-title text-light mb-2">📦 {{ product.name }}</h5>
+                <h5 class="card-title text-light mb-2">
+                    {{ product_icons.get(product.id, "📦") }} {{ product.name }}
+                </h5>
                 <p class="card-text" style="color: #cbd5e1;">{{ product.description }}</p>
                 <p class="mb-1"><strong>${{ product.price }}</strong></p>
 
@@ -78,7 +88,7 @@
                         </div>
                     {% endfor %}
                     {% if not found_review %}
-                        <p style="color: #94a3b8;">No reviews yet.</p>
+                        <p style="color: #94a3b8;">See the Reviews ⭐.</p>
                     {% endif %}
                 </div>
             </div>

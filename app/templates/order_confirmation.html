@@ -3,7 +3,8 @@
 
 <h2>Thank you for your order!</h2>
 <p>Your order ID: <strong>#{{ order.id }}</strong></p>
-<p>Total: <strong>${{ order.total_amount }}</strong></p>
+<p>Total: <strong>${{ '%.2f' | format(order.total_amount) }}</strong></p>
+
 
 <a href="/orders" class="btn btn-secondary">View Orders</a>
 <a href="/catalogue" class="btn btn-primary">Continue Shopping</a>
