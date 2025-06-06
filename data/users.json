@@ -113,5 +113,17 @@
         "order_history": [
             16
         ]
+    },
+    {
+        "id": 10,
+        "name": "zack",
+        "email": "zack@gmail.com",
+        "password": "zack123",
+        "address": "U1 Glen Iris Road",
+        "role": "customer",
+        "cart": [],
+        "order_history": [
+            17
+        ]
     }
 ]

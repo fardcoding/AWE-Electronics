@@ -12,7 +12,7 @@
         "name": "Wireless Mouse",
         "description": "Ergonomic wireless mouse",
         "price": 800.3,
-        "stock": 30,
+        "stock": 29,
         "category": "Accessories"
     },
     {
@@ -36,7 +36,7 @@
         "name": "Bluetooth Speaker",
         "description": "Portable Bluetooth speaker",
         "price": 178.23,
-        "stock": 39,
+        "stock": 38,
         "category": "Audio"
     },
     {
@@ -148,7 +148,7 @@
         "name": "Security Camera",
         "description": "Wireless outdoor security camera",
         "price": 125.67,
-        "stock": 6,
+        "stock": 5,
         "category": "Home"
     },
     {
@@ -227,8 +227,8 @@
         "id": 32,
         "name": "Cable Organizer",
         "description": "Desk cable management system",
-        "price": 1222.0,
-        "stock": 47,
+        "price": 1000.0,
+        "stock": 20,
         "category": "Accessories"
     },
     {
@@ -254,5 +254,13 @@
         "price": 1002.0,
         "stock": 2,
         "category": "TV"
+    },
+    {
+        "id": 33,
+        "name": "Iphone 16 Pro Max",
+        "description": "New Phone!",
+        "price": 1212.0,
+        "stock": 1,
+        "category": "Phone"
     }
 ]

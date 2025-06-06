@@ -133,5 +133,15 @@
             4
         ],
         "total_amount": 875.77
+    },
+    {
+        "id": 17,
+        "customer_id": 10,
+        "product_ids": [
+            5,
+            8,
+            22
+        ],
+        "total_amount": 1104.2
     }
 ]

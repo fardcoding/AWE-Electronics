@@ -376,5 +376,19 @@
         "customer_id": 9,
         "rating": 3,
         "comment": "Good "
+    },
+    {
+        "id": 55,
+        "product_id": 5,
+        "customer_id": 10,
+        "rating": 5,
+        "comment": "ITS SOOO GOOOOOOD"
+    },
+    {
+        "id": 56,
+        "product_id": 22,
+        "customer_id": 10,
+        "rating": 2,
+        "comment": "OKOK"
     }
 ]
