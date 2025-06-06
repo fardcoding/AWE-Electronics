@@ -369,5 +369,12 @@
         "customer_id": 9,
         "rating": 5,
         "comment": "Gooood"
+    },
+    {
+        "id": 54,
+        "product_id": 5,
+        "customer_id": 9,
+        "rating": 3,
+        "comment": "Good "
     }
 ]
